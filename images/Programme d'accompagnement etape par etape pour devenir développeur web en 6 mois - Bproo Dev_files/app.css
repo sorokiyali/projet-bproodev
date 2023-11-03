@@ -1,0 +1,539 @@
+.landing-page {
+  background-color: black;
+  height: 91.5vh;
+}
+
+.main-landing-title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: "Inter", sans-serif;
+  margin-top: 4rem;
+}
+
+.slogan-principal {
+  font-size: 1.7rem;
+  font-family: "Inter", sans-serif;
+  color: #b9c3cf;
+}
+
+.block-landing-image {
+  padding-top: 7rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.hero-button {
+  background-color: #fdbe00;
+  color: black;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+}
+
+.hero-button:hover {
+  background-color: #ecb100;
+  color: #fff;
+}
+
+.first-barner {
+  height: 28rem;
+  background-color: #c0c0c0;
+}
+
+.second-barner {
+  height: 28rem;
+  background-color: #808080;
+}
+
+.hero-profil {
+  margin: -22rem 0;
+}
+
+.profil-text {
+  color: #333;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+h2 {
+  color: #1b0760;
+  font-weight: 900;
+  font-family: "Inter", sans-serif;
+}
+
+.subscription-input {
+  color: #1b0760 !important;
+  font-size: 1.4rem !important;
+  border-radius: 36px;
+  padding-left: 2rem;
+}
+
+.subscribe-button {
+  background-color: #1b0760;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-family: "Inter", sans-serif;
+  padding: 13px 22px;
+}
+
+.subscribe-button:hover {
+  background-color: #fff;
+  border: solid 1px #1b0760;
+  color: #1b0760;
+}
+
+.subscription-text {
+  font-size: 1.4rem;
+  font-family: "Inter", sans-serif;
+}
+
+.third-title {
+  color: #1b0760;
+  font-weight: 900;
+  font-family: "Inter", sans-serif;
+}
+
+.subscription-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card-img {
+  height: 150px;
+}
+
+.backend-card {
+  background: #c73b10;
+  background: linear-gradient(153deg, rgba(199, 31, 16, 0.891) 54%, rgba(255, 4, 0, 0.639) 100%);
+}
+
+.frontend-card {
+  background: #10bec7;
+  background: linear-gradient(153deg, rgba(16, 199, 184, 0.891) 54%, rgba(0, 255, 251, 0.639) 100%);
+}
+
+.fullstack-card {
+  background: #8710c7;
+  background: linear-gradient(153deg, rgba(144, 16, 199, 0.891) 54%, rgba(195, 0, 255, 0.639) 100%);
+}
+
+.backend-btn {
+  border: solid 2px #c73b10;
+  border-radius: 32px;
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  color: #c73b10;
+  font-weight: bold;
+}
+
+.frontend-btn {
+  border: solid 2px #10bec7;
+  border-radius: 32px;
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  color: #10bec7;
+  font-weight: bold;
+}
+
+.full-stack-btn {
+  border: solid 2px #8710c7;
+  border-radius: 32px;
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  color: #8710c7;
+  font-weight: bold;
+}
+
+.full-stack-btn:hover {
+  background: #8710c7;
+  background: linear-gradient(153deg, rgba(144, 16, 199, 0.891) 54%, rgba(195, 0, 255, 0.639) 100%);
+  color: #fff;
+}
+
+.frontend-btn:hover {
+  background: #10bec7;
+  background: linear-gradient(153deg, rgba(16, 199, 184, 0.891) 54%, rgba(0, 255, 251, 0.639) 100%);
+  color: #fff;
+}
+
+.backend-btn:hover {
+  background: #c73b10;
+  background: linear-gradient(153deg, rgba(199, 31, 16, 0.891) 54%, rgba(255, 4, 0, 0.639) 100%);
+  color: #fff;
+}
+
+.choice-card {
+  transition: transform 0.3s;
+}
+
+.choice-card:hover {
+  transform: scale(1.06);
+  font-size: 1.2rem;
+}
+
+.ready-to-start {
+  max-width: 80%;
+  margin-bottom: -4rem;
+  border-radius: 5rem;
+}
+
+.testimonial-icon {
+  color: #c7105d;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.testimonial-profile {
+  border-bottom-left-radius: 5rem !important;
+  border-top-left-radius: 5rem !important;
+}
+
+.modal-button {
+  background-color: #fff;
+  border: solid 4px #290f86;
+  color: #32159c;
+  padding: 13px 22px;
+  border-radius: 3rem;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+
+.modal-button:hover {
+  background-color: #32159c;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.thanks-text {
+  display: none;
+  color: #13a084;
+  margin-top: -24px;
+  font-size: 1.4rem;
+  transition: all 0.4s ease-in;
+  font-weight: bold;
+}
+
+/* Break points of the design */
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+  .slogan-principal {
+    margin: 1.3rem 0 2.5rem 0;
+  }
+
+  .main-landing-title {
+    color: #fff;
+    font-size: 2.6rem;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    margin-top: 4rem;
+  }
+
+  .slogan-principal span {
+    display: block;
+  }
+
+  .block-landing-image {
+    display: none;
+  }
+
+  .first-barner, .second-barner {
+    display: none;
+  }
+
+  .hero-profil {
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .hero-border-dadius {
+    border-radius: 0;
+  }
+
+  .hero-button {
+    background: black;
+    border: solid 3px #fdbe00;
+    color: #f4f4f4;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    padding: 10px 20px !important;
+    margin-top: 2rem;
+  }
+
+  .shadow {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.15) !important;
+  }
+
+  .profil-text {
+    font-size: 1rem;
+  }
+
+  .subscription-text {
+    font-size: 1rem;
+  }
+
+  .subscription-input {
+    font-size: 1rem !important;
+  }
+
+  .subscribe-button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .pplm {
+    padding: 1rem !important;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .header-best-choice {
+    padding: 15px;
+    margin-top: 1rem !important;
+  }
+
+  .testimonia {
+    margin-top: -20px !important;
+  }
+
+  .ready-to-start {
+    box-shadow: 0 0 0 #fff !important;
+    max-width: 100%;
+    margin-bottom: -4rem;
+    border-radius: 0rem;
+  }
+
+  .modal-button {
+    display: block;
+    width: 100%;
+    padding: 10px 0 !important;
+    font-size: 1.1rem;
+    background-color: #32159c;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    border-radius: 2.3rem;
+  }
+
+  form.px-4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+  }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .slogan-principal {
+    margin: 1.3rem 0 2.5rem 0;
+  }
+
+  .main-landing-title {
+    color: #fff;
+    font-size: 2.8rem;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    margin-top: 4rem;
+  }
+
+  .slogan-principal span {
+    display: block;
+  }
+
+  .block-landing-image {
+    display: none;
+  }
+
+  .first-barner, .second-barner {
+    display: none;
+  }
+
+  .hero-profil {
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .hero-border-dadius {
+    border-radius: 0;
+  }
+
+  .hero-button {
+    background: black;
+    border: solid 3px #fdbe00;
+    color: #f4f4f4;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    padding: 10px 20px !important;
+    margin-top: 2rem;
+  }
+
+  .shadow {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.15) !important;
+  }
+
+  .profil-text {
+    font-size: 1rem;
+  }
+
+  .subscription-text {
+    font-size: 1rem;
+  }
+
+  .subscription-input {
+    font-size: 1rem !important;
+  }
+
+  .subscribe-button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .pplm {
+    padding: 1rem !important;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .header-best-choice {
+    padding: 15px;
+    margin-top: 1rem !important;
+  }
+
+  .testimonia {
+    margin-top: -20px !important;
+  }
+
+  .ready-to-start {
+    box-shadow: 0 0 0 #fff !important;
+    max-width: 100%;
+    margin-bottom: -4rem;
+    border-radius: 0rem;
+  }
+
+  .modal-button {
+    display: block;
+    width: 100%;
+    padding: 10px 0 !important;
+    font-size: 1.1rem !important;
+    background-color: #32159c;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    border-radius: 2.3rem;
+  }
+
+  form.px-4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 15px 5px;
+  }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 15px 5px;
+  }
+}
+.subtitle-3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #13a084;
+}
+
+.benefits-list {
+  list-style: none;
+  font-size: 1rem;
+}
+
+.benefits-list li {
+  display: flex;
+  align-items: center;
+  margin: 6px 3px;
+}
+
+.bi-check-all {
+  font-size: 1.4rem;
+}
+
+.video-display-screen1 {
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.video-display-screen2 {
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.video-display-screen3 {
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.mavideo-desc {
+  max-width: 940px;
+  max-height: 530px;
+  width: 100%;
+  height: 100%;
+  margin: 7% auto;
+}
+
+#firstVideoOpt1, #firstVideoOpt2, #firstVideoOpt3 {
+  position: relative;
+}
+
+.bi-play-btn-fill {
+  position: absolute;
+  font-size: 4rem;
+  color: #FF0000;
+  top: -283%;
+  left: 40%;
+  cursor: pointer;
+  z-index: 15;
+}
+
+.bi-play-btn-fill:hover {
+  color: #0d57fe;
+}
